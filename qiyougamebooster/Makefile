@@ -21,6 +21,7 @@ define Package/$(PKG_NAME)
   TITLE:=QiYou Game Boost
   DEPENDS:=+kmod-tun +curl
   URL:=https://www.qiyou.cn
+  PKGARCH:=all
 endef
 
 define Package/$(PKG_NAME)/description
