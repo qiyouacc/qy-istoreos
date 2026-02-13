@@ -18,14 +18,14 @@ include $(INCLUDE_DIR)/package.mk
 define Package/$(PKG_NAME)
   SECTION:=net
   CATEGORY:=Network
-  TITLE:=QiYou Game Boost
+  TITLE:=QiYou Game Booster
   DEPENDS:=+kmod-tun +curl
   URL:=https://www.qiyou.cn
   PKGARCH:=all
 endef
 
 define Package/$(PKG_NAME)/description
-  Play console games online with less lag and more stability
+  Play console games online with less lag and more stability.
   — now supporting PS, Switch, Xbox, PC, and mobile.
 endef
 
